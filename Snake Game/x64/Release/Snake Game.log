@@ -1,0 +1,20 @@
+﻿  Engine.cpp
+C:\Users\Frank\Documents\Coding\Snake Game\Snake Game\Engine.cpp(7,50): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Frank\Documents\Coding\Snake Game\Snake Game\Engine.cpp(7,36): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Frank\Documents\Coding\Snake Game\Snake Game\Engine.cpp(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SnakeSection.cpp
+C:\Users\Frank\Documents\Coding\Snake Game\Snake Game\SnakeSection.cpp(6,89): error C2664: 'void sf::Shape::setTexture(const sf::Texture *,bool)': cannot convert argument 1 from 'const char [60]' to 'const sf::Texture *'
+C:\Users\Frank\Documents\Coding\Snake Game\Snake Game\SnakeSection.cpp(6,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\Frank\Documents\Coding\Snake Game\include\SFML\Graphics\Shape.hpp(74,10): message : see declaration of 'sf::Shape::setTexture'
+  draw.cpp
+  input.cpp
+  main.cpp
+  update.cpp
